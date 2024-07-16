@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 2</title>
+</head>
+<body>
+    <h1>Ejercicio 2</h1>
+    <form action="/ejercicio2" method="POST">
+        <label for="nombre1">Nombre 1:</label>
+        <input type="text" id="nombre1" name="nombre1" required><br><br>
+
+        <label for="nombre2">Nombre 2:</label>
+        <input type="text" id="nombre2" name="nombre2" required><br><br>
+
+        <label for="nombre3">Nombre 3:</label>
+        <input type="text" id="nombre3" name="nombre3" required><br><br>
+
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
+resultado_ejercicio2.html (Resultado del Ejercicio 2)
+html
+Copiar código
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resultado Ejercicio 2</title>
+</head>
+<body>
+    <h1>Resultado Ejercicio 2</h1>
+    <p>El nombre más largo es: {{ nombre }} ({{ longitud }} caracteres)</p>
+</body>
+</html>
